@@ -43,7 +43,7 @@
       <?php  
         echo '<h1 class="intro" style="letter-spacing: 2px; font-weight: bold;"><center>Customer Details</center></h1>';
         echo '<table class="listtable table-light table  table-striped table-hover mt-2"  style="opacity: 0.9; width: 80%; margin: auto;">
-          <tr>
+          <tr class="table-dark">
               <th>ID</th>
               <th>Name</th>
               <th>E-mail</th>
