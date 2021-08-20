@@ -39,16 +39,16 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`id`, `Name`, `email`, `balance`) VALUES
-(1, 'Dhawanil', 'dhawanil@gmail.com', 689500),
-(2, 'Mandeep', 'mandeepsingh@gmail.com', 28000),
-(3, 'Anjana', 'anjana.singh@yahoo.com', 38900),
-(4, 'Iswarya', 'iswaryamenon@gmail.com', 489700),
-(5, 'Pranjal', 'kpranjal@yahoo.com', 124000),
-(6, 'Ishita', 'ishitagupta@gmail.com', 21000),
-(7, 'Sanket', 'sanketbatra@gmail.com', 89750),
-(8, 'Manya', 'manyadewangan@yahoo.com', 46000),
-(9, 'Aaron', 'aaron.evans@yahoo.com', 8200),
-(10, 'Priya', 'priyaghosh@gmail.com', 32700);
+(1, 'Dhawanil Malik', 'dhawanil.malik@gmail.com', 689500),
+(2, 'Mandeep Singh', 'mandeepsingh@gmail.com', 28000),
+(3, 'Anjana Sharma', 'anjana.sharma@yahoo.com', 38900),
+(4, 'Iswarya Verma', 'iswaryaverma@gmail.com', 489700),
+(5, 'Pranjal Aggrawal', 'pranjal.aggrwal@yahoo.com', 124000),
+(6, 'Ishita Rao', 'ishita.rao@gmail.com', 21000),
+(7, 'Sanket Batra', 'sanketbatra@gmail.com', 89750),
+(8, 'Manya Yadav', 'manyayadav@yahoo.com', 46000),
+(9, 'Aaron James', 'aaron.jamess@yahoo.com', 8200),
+(10, 'Priya Wagh', 'priya.wagh@gmail.com', 32700);
 
 -- --------------------------------------------------------
 
@@ -68,14 +68,14 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`his_id`, `sender`, `reciever`, `amount`) VALUES
-(1, 'Dhawanil', 'Manya', 700),
-(2, 'Sanket', 'Priya', 1200),
-(3, 'Iswarya', 'Dhawanil', 2300),
-(4, 'Pranjal', 'Mandeep', 650),
-(5, 'Manya', 'Aaron', 2100),
-(6, 'Anjana', 'Sanket', 3000),
-(7, 'Dhawanil', 'Ishita', 12000),
-(8, 'Aaron', 'Anjana', 1800);
+(1, 'Dhawanil Malik', 'Manya Yadav', 700),
+(2, 'Sanket Batra', 'Priya Wagh', 1200),
+(3, 'Iswarya Verma', 'Dhawanil Malik', 2300),
+(4, 'Pranjal Aggrawal', 'Mandeep Singh', 650),
+(5, 'Manya Yadav', 'Aaron James', 2100),
+(6, 'Anjana Sharma', 'Sanket Batra', 3000),
+(7, 'Dhawanil Malik', 'Ishita Rao', 12000),
+(8, 'Aaron James', 'Anjana Sharma', 1800);
 
 --
 -- Indexes for dumped tables

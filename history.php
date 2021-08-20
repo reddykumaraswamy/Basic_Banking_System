@@ -45,7 +45,7 @@
 
     <?php  
       echo '<h1 class="intro" style="letter-spacing: 2px; font-weight: bold;"><center>Transaction History</center></h1>';
-      echo '<table class="listtable table-light table  table-striped table-hover mt-2"  style="opacity: 0.9; width: 70%; margin: auto;">
+      echo '<table class="listtable table-light table  table-striped table-hover mt-2"  style="opacity: 0.9; width: 74%; margin: auto;">
       <tr class="table-dark">
           <th>ID</th>
           <th>Sender</th>
