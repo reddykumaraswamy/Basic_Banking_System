@@ -41,7 +41,7 @@
                 $result1=mysqli_query($con,$sql1);
                 $result2=mysqli_query($con,$sql2);
                 echo "<script> alert(' ✅ Your Transaction is Successful ')</script>";
-                echo "<script> window.location.href='index.php'</script>";
+                echo "<script> window.location.href='index.html'</script>";
             }
         }
     ?>
