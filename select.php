@@ -25,7 +25,7 @@
             <nav>
                 <ul>
                     <li>
-                    <a href="index.php" class="text-decoration-none">Home</a>
+                    <a href="index.html" class="text-decoration-none">Home</a>
                     </li>
                     <li>
                     <a href="#" class="text-decoration-none">About</a>
